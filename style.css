@@ -1,0 +1,54 @@
+body{
+    background-color: bisque;
+}
+
+*{
+    margin: 10%;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width:430px;
+    height: 800px;
+    border-radius: 2% 2% 2% 2%;
+    background-image: linear-gradient(rgb(57, 250, 192),rgb(185, 35, 140));
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    color:crimson;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.converter-row{
+    display: flexbox;
+    background: rgb(186, 248, 72);
+    border-radius: 5%;
+}
+
+.col{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.col label{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.col input{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+
+}
